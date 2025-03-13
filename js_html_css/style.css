@@ -1,0 +1,114 @@
+main{
+    margin: auto;
+    width: 1000px;
+    margin-top: 25px;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+#plantsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+/*sve o biljkama*/
+.container{
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px 5px #ddd;
+    border: 1px solid #ddd;
+
+}
+/*slike biljaka*/
+.img{
+    margin: 10px;
+}
+img{
+    width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+/*sve ispod slika*/
+.content{
+    margin: 10px;
+
+}
+p{
+    text-align: center;
+    margin: 0px;
+    color: #005506;
+    padding-top: 5px;
+}
+button{
+    width: 92px;
+    background-color: #04AA6D;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    color: white;
+}
+
+.button-red{
+    margin-left: 4px;
+    background-color: #f44336;
+}
+
+h4{
+    text-align: center;
+    margin: 5px;
+    color: #005506;
+}
+.description{
+    margin: 0px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: green;
+}
+
+.date{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5px;
+
+}
+.lastWatered{
+    width: 90px;
+    font-size: 12px;
+    color: #005506;
+    border: 1px solid #005506;
+    border-radius: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.moisture{  
+   display: flex;
+   align-items: center;
+}
+label{
+    font-size: 12px;
+    color: #005506;
+}
+.percent{
+    width: 40px;
+    text-align: center;
+    border: none;
+    font-size: 12px;
+    color: #005506;
+    border: 1px solid #005506;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+ 
