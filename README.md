@@ -1,7 +1,7 @@
 Plant Watering System  
 
 This was my third-year project for the Design and Development of IoT Projects course. 
-Before this, I had no experience with IoT, but I put in the effort, and it turned out that I did a pretty good job (I got an A).
+Before this, I had no experience with IoT, but I put in the effort, and it turned out that I did a pretty good job.
 
 Plant Watering System is a smart irrigation system that allows users to monitor soil moisture levels and remotely activate a water pump via a web application.
 The project is designed as a simple yet functional IoT solution using:  
